@@ -2,8 +2,186 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="944fee73-a487-4f61-a7b8-2a3ea348764f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/express" afterPath="$PROJECT_DIR$/node_modules/.bin/express" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/footer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/wells.less" />
+      <change type="DELETED" beforePath="C:\Mine\Development\CelebrityPoop\public\javascripts\corpus.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Mine\Development\CelebrityPoop\public\javascripts\script.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Mine\Development\CelebrityPoop\routes\user.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Mine\Development\CelebrityPoop\views\index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/.npmignore" afterPath="$PROJECT_DIR$/node_modules/handlebars/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/.npmignore" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/.npmignore" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/.npmignore" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/LICENSE" afterPath="$PROJECT_DIR$/node_modules/handlebars/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/LICENSE" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/LICENSE" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/async/LICENSE" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/async/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/LICENSE" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/LICENSE" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/Makefile.dryice.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/Makefile.dryice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/README.markdown" afterPath="$PROJECT_DIR$/node_modules/handlebars/README.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/README.markdown" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/README.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/README.md" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/async/README.md" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/async/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/README.md" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/README.md" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/test/_.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/test/_.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/amdefine.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/amdefine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/app_js.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/app_js.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/test/_/argv.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/test/_/argv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/array-set.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/array-set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/arrays.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/arrays.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/ast.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/ast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/ast.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/ast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/async/lib/async.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/async/lib/async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/base.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/base.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/base64-vlq.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/base64-vlq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/base64.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/base64.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/test/_/bin.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/test/_/bin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/binary-search.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/binary-search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/blocks.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/blocks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/bool.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/bool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/boolean_double.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/boolean_double.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/boolean_single.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/boolean_single.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/test/break.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/test/break.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/example/center.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/example/center.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/compiler.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/compiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/async/component.json" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/async/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/compress.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/compress.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/conditionals.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/conditionals.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/dead-code.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/dead-code.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/debugger.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/debugger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/default_hash.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/default_hash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/default_singles.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/default_singles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/divide.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/divide.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/drop-unused.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/drop-unused.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/exception.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/exception.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars.runtime.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars.runtime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/handlebars" afterPath="$PROJECT_DIR$/node_modules/.bin/handlebars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/test/idleness.txt" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/test/idleness.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/index.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/index.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/intercept.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/intercept.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/issue-105.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/issue-105.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/issue-12.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/issue-12.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/issue-143.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/issue-143.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/issue-22.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/issue-22.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/issue-44.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/issue-44.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/issue-59.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/issue-59.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/javascript-compiler.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/javascript-compiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/labels.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/labels.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/line_count.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/line_count.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/line_count_options.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/line_count_options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/line_count_wrap.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/line_count_wrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/loops.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/loops.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/example/meat.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/example/meat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/mozilla-ast.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/mozilla-ast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/tools/node.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/tools/node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/nonopt.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/nonopt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/output.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/output.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/package.json" afterPath="$PROJECT_DIR$/node_modules/handlebars/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/package.json" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/package.json" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/package.json" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/async/package.json" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/async/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/package.json" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/package.json" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/test/parse.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/test/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/parse.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/parser.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/printer.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/printer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/properties.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/properties.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/readme.markdown" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/readme.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/reflect.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/reflect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/release-notes.md" afterPath="$PROJECT_DIR$/node_modules/handlebars/release-notes.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/run-tests.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/run-tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/run-tests.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/run-tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/runtime.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/runtime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/runtime.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/runtime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/safe-string.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/safe-string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/scope.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/scope.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/sequences.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/sequences.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/short.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/short.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-map-consumer.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-map-consumer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-map-generator.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-map-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-node.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/source-node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/sourcemap.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/sourcemap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/string.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/switch.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/switch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-api.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-array-set.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-array-set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-base64-vlq.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-base64-vlq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-base64.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-base64.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-binary-search.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-binary-search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-dog-fooding.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-dog-fooding.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-consumer.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-consumer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-generator.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-node.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/transform.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/transform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/typeof.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/test/compress/typeof.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/.bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/.bin/uglifyjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/usage-options.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/usage-options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/test/usage.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/test/usage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/util.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/lib/source-map/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/util.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/node_modules/source-map/test/source-map/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/utils.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/uglify-js/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/visitor.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/lib/handlebars/compiler/visitor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/test/wrap.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/node_modules/wordwrap/test/wrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/xup.js" afterPath="$PROJECT_DIR$/node_modules/handlebars/node_modules/optimist/example/xup.js" />
     </list>
     <ignored path="CelebrityPoop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,40 +204,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.html">
+      <file leaf-file-name="index.hbs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="713" selection-end="713" vertical-scroll-proportion="-1.3076923" vertical-offset="204" max-vertical-offset="1054">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="2" selection-start="107" selection-end="107" vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="595">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="corpus.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/corpus.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="519" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="1" selection-start="1968" selection-end="1968" vertical-scroll-proportion="-1.8846154" vertical-offset="1872" max-vertical-offset="2431">
+            <state line="42" column="126" selection-start="1957" selection-end="1957" vertical-scroll-proportion="0.5077951" vertical-offset="486" max-vertical-offset="1020">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="56" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <folding>
+                <element signature="e#0#43#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/footer.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="15" selection-start="476" selection-end="476" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/variables.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="24" selection-start="740" selection-end="740" vertical-scroll-proportion="-11.115385" vertical-offset="204" max-vertical-offset="11016">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="0" selection-start="915" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="765">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,7 +256,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+            <state line="7" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -86,20 +275,24 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.less" />
         <option value="$PROJECT_DIR$/public/javascripts/corpus.js" />
         <option value="$PROJECT_DIR$/public/javascripts/script.js" />
         <option value="$PROJECT_DIR$/views/index.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/variables.less" />
+        <option value="$PROJECT_DIR$/public/stylesheets/footer.less" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/index.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/index.hbs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -108,7 +301,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -206,20 +399,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CelebrityPoop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CelebrityPoop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -233,24 +412,18 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/nodejs/node.exe" />
+    <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="LayoutCode.rearrangeEntriesHandlebars" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Mine\Development\CelebrityPoop\public\stylesheets" />
       <recent name="C:\Mine\Development\CelebrityPoop\public\javascripts" />
       <recent name="C:\Mine\Development\CelebrityPoop\public\images" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.app.js">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -261,15 +434,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -309,20 +490,40 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33009708" sideWeight="0.4997367" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.49968255" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.49968255" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.49968255" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24907847" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399137" sideWeight="0.38177988" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2488889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39812332" sideWeight="0.3815873" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33009708" sideWeight="0.5002633" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.4997367" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32841823" sideWeight="0.50031745" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32841823" sideWeight="0.49968255" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.49968255" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -347,72 +548,23 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/index.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="10" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/index.html">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="51" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/corpus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="93" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="13" selection-start="1497" selection-end="1502" vertical-scroll-proportion="0.0" vertical-offset="1547" max-vertical-offset="2431">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="4131">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="20" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="1853">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="51" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/corpus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="93" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="13" selection-start="1497" selection-end="1502" vertical-scroll-proportion="0.0" vertical-offset="1547" max-vertical-offset="2431">
+        <state line="8" column="35" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
@@ -445,6 +597,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="20" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="1853">
@@ -452,82 +611,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.WebStorm7/system/extLibs/nodejs-v0.10.24-src/core-modules-sources/lib/events.js">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2916" selection-end="2916" vertical-scroll-proportion="0.59698683" vertical-offset="686" max-vertical-offset="4811">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="34" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="748">
+        <state line="1" column="0" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="4131">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/cheerio/lib/static.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="2380">
-          <folding />
-        </state>
+        <state line="18" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="2380" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/cheerio/lib/api/manipulation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="184" column="0" selection-start="4244" selection-end="4244" vertical-scroll-proportion="0.0" vertical-offset="2951" max-vertical-offset="3774">
-          <folding />
-        </state>
+        <state line="184" column="0" selection-start="4244" selection-end="4244" vertical-scroll-proportion="0.0" vertical-offset="2951" max-vertical-offset="3774" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/cheerio/lib/api/traversing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="225" column="0" selection-start="5636" selection-end="5636" vertical-scroll-proportion="0.0" vertical-offset="3648" max-vertical-offset="5100">
-          <folding />
-        </state>
+        <state line="225" column="0" selection-start="5636" selection-end="5636" vertical-scroll-proportion="0.0" vertical-offset="3648" max-vertical-offset="5100" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/request/request.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="0" selection-start="3139" selection-end="3139" vertical-scroll-proportion="-0.91525424" vertical-offset="2560" max-vertical-offset="21335">
+        <state line="122" column="0" selection-start="3139" selection-end="3139" vertical-scroll-proportion="-0.91525424" vertical-offset="2560" max-vertical-offset="21335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/corpus.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/consolidate/lib/consolidate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="519" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="1" selection-start="1968" selection-end="1968" vertical-scroll-proportion="-1.8846154" vertical-offset="1872" max-vertical-offset="2431">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="104.96154" vertical-offset="2729" max-vertical-offset="13090">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/handlebars/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="21" selection-start="13" selection-end="23" vertical-scroll-proportion="0.038990825" vertical-offset="0" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="26" selection-start="1341" selection-end="1347" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="101354">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="24" selection-start="740" selection-end="740" vertical-scroll-proportion="-11.115385" vertical-offset="204" max-vertical-offset="11016">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/footer.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="15" selection-start="476" selection-end="476" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="915" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="56" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+        <state line="7" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.html">
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="713" selection-end="713" vertical-scroll-proportion="-1.3076923" vertical-offset="204" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="107" selection-end="107" vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="595">
-          <folding />
+        <state line="42" column="126" selection-start="1957" selection-end="1957" vertical-scroll-proportion="0.5077951" vertical-offset="486" max-vertical-offset="1020">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
