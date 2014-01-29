@@ -3,7 +3,7 @@
  * GET home page.
  */
 exports.index = function(req, res){
-    var phrases = ["To clean the bagpipes","To drown the wolf bait","To force a double play","To drop the kids off at the pool"];
+    var phrases = ["poop a duke","take a deuce","download a google","do the dougie","drown the wolf bait","clean the bagpipes","force a double play","bury the elf","build a log cabin","drill for mud bunnies","slap the podge","drop the chalupa","feed the fish","hang a grogan","go hound doggin'","lay the pipe","pinch a loaf","make a Michigan hand warmer","squeeze one out","bring it home","bake brownies","heave the sherpa"];
     var name = req.query.name.trim().replace(/\s+/g, "-");
     var request = require('request');
     var cheerio = require('cheerio');
