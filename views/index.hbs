@@ -22,16 +22,26 @@
 <body style="">
 <div class="container">
     <div class="row">
+        {{#if celebInfoFound}}
         <div class="col-md-6 col-md-offset-3">
             <noscript>
                 <h1>What the crap! You don't have JavaScript enabled!</h1>
             </noscript>
-            <h1>It costs {{celeb}} <br> {{phrase}}</h1>
+            <h1>It costs {{celeb}} {{phrase}}</h1>
         </div>
+        {{else}} {{#if showInitial}}
+            <div class="col-md-6 col-md-offset-3">
+                <h1>Enter a celeb name below to find the amount of money they make whilst they defecate.</h1>
+            </div>
+        {{else}}
+            <div class="col-md-6 col-md-offset-3">
+                <h1>Fudge! We could not find poop information for {{celeb}}</h1>
+            </div>
+        {{/if}}{{/if}}
         <form class="row">
             <div class="col-md-6 col-md-offset-3">
-                <div class="input-group input-group-lg">
-                    <input type="text" class="form-control" placeholder="Search More Poo!" id="pooSearch"/>
+                <div class="form-group form-group-lg">
+                    <input type="text" class="form-control" placeholder="Enter Celeb Name here!" id="pooSearch"/>
                 </div>
             </div>
         </form>
