@@ -40,8 +40,8 @@ exports.index = function(req, res){
         }
         var prettyName =req.query.name.toLowerCase().replace(/\b[a-z](?=[a-z]{2})/g, function(letter) {
             return letter.toUpperCase(); } );
-        celeb =  prettyName + ' ' + amount;
-        res.render('index.hbs', { celeb: celeb, phrase: phrase, celebInfoFound:celebInfoFound, showInitial:showInitial });
+        celeb =  prettyName;
+        res.render('index.hbs', { celeb: celeb, cost: amount, phrase: phrase, celebInfoFound:celebInfoFound, showInitial:showInitial });
     });
 
 };
