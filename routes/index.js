@@ -15,7 +15,8 @@ exports.index = function(req, res){
     var name = req.query.name.trim().replace(/\s+/g, "-");
     var request = require('request');
     var cheerio = require('cheerio');
-    var url = 'http://celebnetworth.org/' + name + '-net-worth-salary';
+    //var url = 'http://celebnetworth.org/' + name + '-net-worth-salary';
+    var url = 'http://celebritynetworth.com/dl/' + name;
     var amount = '';
     var poopTimeInMinutes = 8;
 
@@ -23,25 +24,49 @@ exports.index = function(req, res){
         if (err)
             throw err;
         $ = cheerio.load(body);
-        if($('.networthtitle p').length > 0){
-            $('.networthtitle p').each(function(ndx, value){
-                if(ndx == 1){
-                    amount = $(value).html().replace(/<.*?>.*?<\/.*?>/, "").replace(':','').replace('$','');
-                    if(amount.indexOf('million') > -1){
-                        console.log(amount);
+
+        if($('#ss_search_results .search_result_lead_title_anchor').attr('href').length > 0){
+            url = $('#ss_search_results .search_result_lead_title_anchor').attr('href');
+            request(url, function(err, resp, body) {
+                if (err)
+                    throw err;
+                $ = cheerio.load(body);
+
+                if($('.networth_amount_value').length > 0){
+                    amount = $('.networth_amount_value').text().replace('$','');
+                    console.log(amount);
+                    if(amount.toLowerCase().indexOf('million') > -1){
                         amount = parseInt(amount.replace("million", ""));
-                        console.log(amount);
                         amount=amount*1000000;
+                    }
+                    else if(amount.toLowerCase().indexOf('thousand') > -1){
+                        amount = parseInt(amount.replace("thousand", ""));
+                        amount=amount*1000;
                     }
                     amount = '$' + Math.round((amount*poopTimeInMinutes)/(365*24*60));
                     celebInfoFound = true;
                 }
+                var prettyName =req.query.name.toLowerCase().replace(/\b[a-z](?=[a-z]{2})/g, function(letter) {
+                    return letter.toUpperCase(); } );
+                celeb =  prettyName;
+                res.render('index.hbs', { celeb: celeb, cost: amount, phrase: phrase, celebInfoFound:celebInfoFound, showInitial:showInitial });
             });
         }
-        var prettyName =req.query.name.toLowerCase().replace(/\b[a-z](?=[a-z]{2})/g, function(letter) {
-            return letter.toUpperCase(); } );
-        celeb =  prettyName;
-        res.render('index.hbs', { celeb: celeb, cost: amount, phrase: phrase, celebInfoFound:celebInfoFound, showInitial:showInitial });
+//        if($('.networthtitle p').length > 0){
+//            $('.networthtitle p').each(function(ndx, value){
+//                if(ndx == 1){
+//                    amount = $(value).html().replace(/<.*?>.*?<\/.*?>/, "").replace(':','').replace('$','');
+//                    if(amount.indexOf('million') > -1){
+//                        console.log(amount);
+//                        amount = parseInt(amount.replace("million", ""));
+//                        console.log(amount);
+//                        amount=amount*1000000;
+//                    }
+//                    amount = '$' + Math.round((amount*poopTimeInMinutes)/(365*24*60));
+//                    celebInfoFound = true;
+//                }
+//            });
+//        }
     });
 
 };
