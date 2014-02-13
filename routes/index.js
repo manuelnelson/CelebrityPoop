@@ -7,6 +7,13 @@ exports.index = function(req, res){
     var showInitial = false;
     var celebInfoFound = false;
     var phrase = phrases[(Math.random() * phrases.length) | 0];
+    var redis = require('redis'),
+        rClient = redis.createClient(6379, '127.0.0.1');
+    rClient.on("error", function(err){
+        console.log("Error! " + err)
+    });
+    rClient.set("huey", "dewey", redis.print);
+    console.log("huey: " + rClient.get("huey"));
     var celeb = '';
     if(!req.query.name){
         res.render('index.hbs', { celeb: celeb, phrase: phrase, celebInfoFound:celebInfoFound, showInitial:true });
@@ -52,21 +59,6 @@ exports.index = function(req, res){
                 res.render('index.hbs', { celeb: celeb, cost: amount, phrase: phrase, celebInfoFound:celebInfoFound, showInitial:showInitial });
             });
         }
-//        if($('.networthtitle p').length > 0){
-//            $('.networthtitle p').each(function(ndx, value){
-//                if(ndx == 1){
-//                    amount = $(value).html().replace(/<.*?>.*?<\/.*?>/, "").replace(':','').replace('$','');
-//                    if(amount.indexOf('million') > -1){
-//                        console.log(amount);
-//                        amount = parseInt(amount.replace("million", ""));
-//                        console.log(amount);
-//                        amount=amount*1000000;
-//                    }
-//                    amount = '$' + Math.round((amount*poopTimeInMinutes)/(365*24*60));
-//                    celebInfoFound = true;
-//                }
-//            });
-//        }
     });
 
 };
