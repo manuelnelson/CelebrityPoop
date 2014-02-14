@@ -8,12 +8,19 @@ exports.index = function(req, res){
     var celebInfoFound = false;
     var phrase = phrases[(Math.random() * phrases.length) | 0];
     var redis = require('redis'),
-        rClient = redis.createClient(6379, '127.0.0.1');
+        rClient;
+    if (process.env.REDISTOGO_URL) {
+        var rtg   = require("url").parse(process.env.REDISTOGO_URL);
+        rClient = redis.createClient(rtg.port, rtg.hostname);
+        redis.auth(rtg.auth.split(":")[1]);
+    } else {
+        rClient = redis.createClient();
+    }
+
     rClient.on("error", function(err){
         console.log("Error! " + err)
     });
     rClient.set("huey", "dewey", redis.print);
-    console.log("huey: " + rClient.get("huey"));
     var celeb = '';
     if(!req.query.name){
         res.render('index.hbs', { celeb: celeb, phrase: phrase, celebInfoFound:celebInfoFound, showInitial:true });
@@ -26,7 +33,16 @@ exports.index = function(req, res){
     var url = 'http://celebritynetworth.com/dl/' + name;
     var amount = '';
     var poopTimeInMinutes = 8;
+    var prettyName =req.query.name.toLowerCase().replace(/\b[a-z](?=[a-z]{2})/g, function(letter) {
+        return letter.toUpperCase();
+    });
 
+    //first check redis
+    var redisAmount = rClient.get(prettyName);
+    if(redisAmount){
+        res.render('index.hbs', { celeb: prettyName, cost: redisAmount, phrase: phrase, celebInfoFound:true, showInitial:showInitial });
+        return;
+    }
     request(url, function(err, resp, body) {
         if (err)
             throw err;
@@ -51,12 +67,10 @@ exports.index = function(req, res){
                         amount=amount*1000;
                     }
                     amount = '$' + Math.round((amount*poopTimeInMinutes)/(365*24*60));
+                    rClient.set(prettyName, amount);
                     celebInfoFound = true;
                 }
-                var prettyName =req.query.name.toLowerCase().replace(/\b[a-z](?=[a-z]{2})/g, function(letter) {
-                    return letter.toUpperCase(); } );
-                celeb =  prettyName;
-                res.render('index.hbs', { celeb: celeb, cost: amount, phrase: phrase, celebInfoFound:celebInfoFound, showInitial:showInitial });
+                res.render('index.hbs', { celeb: prettyName, cost: amount, phrase: phrase, celebInfoFound:celebInfoFound, showInitial:showInitial });
             });
         }
     });
