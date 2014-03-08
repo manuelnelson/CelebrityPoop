@@ -7,15 +7,20 @@ exports.index = function(req, res){
     var showInitial = false;
     var celebInfoFound = false;
     var phrase = phrases[(Math.random() * phrases.length) | 0];
+    var redis = require('redis'),
         rClient;
-    if (process.env.REDISTOGO_URL) {
-        var rtg   = require("url").parse(process.env.REDISTOGO_URL);
-        rClient = redis.createClient(rtg.port, rtg.hostname);
-        redis.auth(rtg.auth.split(":")[1]);
-    } else {
-        rClient = redis.createClient();
-    }
+//    if (process.env.REDISTOGO_URL) {
+//        var rtg   = require("url").parse(process.env.REDISTOGO_URL);
+//        rClient = redis.createClient(rtg.port, rtg.hostname);
+//        redis.auth(rtg.auth.split(":")[1]);
+//    } else {
+//        rClient = redis.createClient();
+//    }
 
+//    rClient.on("error", function(err){
+//        console.log("Error! " + err)
+//    });
+//    rClient.set("huey", "dewey", redis.print);
     var celeb = '';
     if(!req.query.name){
         res.render('index.hbs', { celeb: celeb, phrase: phrase, celebInfoFound:celebInfoFound, showInitial:true });
@@ -33,11 +38,11 @@ exports.index = function(req, res){
     });
 
     //first check redis
-    var redisAmount = rClient.get(prettyName);
-    if(redisAmount){
-        res.render('index.hbs', { celeb: prettyName, cost: redisAmount, phrase: phrase, celebInfoFound:true, showInitial:showInitial });
-        return;
-    }
+//    var redisAmount = rClient.get(prettyName);
+//    if(redisAmount){
+//        res.render('index.hbs', { celeb: prettyName, cost: redisAmount, phrase: phrase, celebInfoFound:true, showInitial:showInitial });
+//        return;
+//    }
     request(url, function(err, resp, body) {
         if (err)
             throw err;
@@ -50,8 +55,8 @@ exports.index = function(req, res){
                     throw err;
                 $ = cheerio.load(body);
 
-                if($('.networth_amount_value').length > 0){
-                    amount = $('.networth_amount_value').text().replace('$','');
+                if($('.meta_row.networth').length > 0){
+                    amount = $('.meta_row.networth .value').text().replace('$','');
                     console.log(amount);
                     if(amount.toLowerCase().indexOf('million') > -1){
                         amount = parseInt(amount.replace("million", ""));
@@ -61,28 +66,16 @@ exports.index = function(req, res){
                         amount = parseInt(amount.replace("thousand", ""));
                         amount=amount*1000;
                     }
+                    else if(amount.toLowerCase().indexOf('billion') > -1){
+                        amount = parseInt(amount.replace("billion", ""));
+                        amount=amount*1000000000;
+                    }
                     amount = '$' + Math.round((amount*poopTimeInMinutes)/(365*24*60));
-                    rClient.set(prettyName, amount);
+//                    rClient.set(prettyName, amount);
                     celebInfoFound = true;
                 }
                 res.render('index.hbs', { celeb: prettyName, cost: amount, phrase: phrase, celebInfoFound:celebInfoFound, showInitial:showInitial });
             });
         }
-//        if($('.networthtitle p').length > 0){
-//            $('.networthtitle p').each(function(ndx, value){
-//                if(ndx == 1){
-//                    amount = $(value).html().replace(/<.*?>.*?<\/.*?>/, "").replace(':','').replace('$','');
-//                    if(amount.indexOf('million') > -1){
-//                        console.log(amount);
-//                        amount = parseInt(amount.replace("million", ""));
-//                        console.log(amount);
-//                        amount=amount*1000000;
-//                    }
-//                    amount = '$' + Math.round((amount*poopTimeInMinutes)/(365*24*60));
-//                    celebInfoFound = true;
-//                }
-//            });
-//        }
     });
-
 };
